@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Global */
+
+body {
+    display: flex;
+    background-color: rgb(17, 16, 16);
+    margin: 0 0 ;
+    font-family: 'Merienda One', cursive;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(221, 219, 219);
+}
+
+h1{
+    margin-top: 23px;
+    color: rgb(221, 219, 219);
+}
+h1:hover {
+    color: rgb(17, 16, 16);
+    transition: 0.7s;
+
+}
+
+p {
+    margin-bottom: 20px;
+    color:  rgb(92, 91, 91);
+    font-size: 12px;
+}
+
+/* Box */
+main {
+    background-color: rgb(34, 32, 32);
+    height: 750px;
+    width: 350px;
+    border-style: double;
+    border-color: rgb(221, 219, 219);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 0px;
+    margin: 80px auto;
+    box-shadow: 0.5px 0.5px 35px 0.5px rgb(92, 91, 91);
+}
+
+.avatar {
+    width: 180px;
+    border-style: double;
+    border-color: rgb(221, 219, 219);
+    border-radius: 50%; 
+    padding: 5px;
+    margin-block-end: 20px;
+    box-shadow: 0.2px 0.2px 15px 0.2px rgb(92, 91, 91);
+}
+
+/* Links */
+main ul li:hover {
+    background-color: rgba(92, 91, 91, 0.089);
+    transition: 0.7s;
+}
+img.logo{
+    width: 25px;
+    padding-right: 10px;
+    cursor: pointer;
+    
+}
+
+.link {
+    background-color:  rgb(17, 16, 16);
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
